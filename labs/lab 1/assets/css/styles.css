@@ -1,0 +1,19 @@
+body {
+    background: #93DAD6;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.a {
+    width: 200px; 
+}
+.b{
+    width: 250px;
+}
+
+.header {
+    background: teal;
+}
+
+.content {
+    background: paleturquoise;
+}
