@@ -1,0 +1,24 @@
+*{box-sizing: border-box;}
+
+body {
+     background: whitesmoke;
+     margin: 0;
+     font-size: 0;
+    }
+
+ .c {
+    background: #e7e7e7;
+    width: 80px;
+    display: inline-block;
+    font-size: 14px;
+    padding: 5px;
+ }
+
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto 0 auto;
+    background: rgb(169, 172, 175);
+}
+
+img {width: 100%; }
