@@ -3,22 +3,31 @@
 body {
      background: whitesmoke;
      margin: 0;
-     font-size: 0;
+     text-align: center;
+     font-size: 14px;
     }
 
  .c {
     background: #e7e7e7;
-    width: 80px;
+    width: 69px;
     display: inline-block;
     font-size: 14px;
-    padding: 5px;
- }
+    padding: 2px;
+    padding-bottom: 2px
+}
 
 
 .wrapper {
-    width: 1200px;
+    width: 1114px;
     margin: 0 auto 0 auto;
-    background: rgb(169, 172, 175);
+    background: #e7e7e7;
 }
 
 img {width: 100%; }
+
+a{
+    color: grey;
+}
+
+a:hover {
+    color: black;
