@@ -1,19 +1,12 @@
 body {
-    background: #93DAD6;
-    font-size: 14px;
+    background: rgb(149, 177, 175);
+    font-size: 15px;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family:  'Cutive Mono', monospace;
 }
 
 .title{
     font-size: 20;
-}
-
-.a {
-    width: 200px; 
-}
-.b{
-    width: 250px;
 }
 
 .header {
@@ -25,3 +18,8 @@ body {
 }
 
 img {width: 130px; }
+
+a{color:azure;}
+
+a:hover{color:rgb(149, 177, 175)}
+

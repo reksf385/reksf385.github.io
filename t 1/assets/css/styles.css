@@ -8,17 +8,8 @@ body {
      font-family: 'Crimson Text', serif;
     }
 
- .c {
-    background: #e7e7e7;
-    width: 69px;
-    display: inline-block;
-    font-size: 14px;
-    padding: 2px;
-}
-
-
 .wrapper {
-    width: 1114px;
+    width: 1120px;
     margin: 0 auto 0 auto;
     background: #e7e7e7;
 }
