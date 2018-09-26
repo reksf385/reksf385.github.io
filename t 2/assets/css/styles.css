@@ -1,0 +1,25 @@
+body {
+    background: rgb(73, 87, 86);
+    font-size: 14px;
+    text-align: center;
+    font-family:  'Cutive Mono', monospace;
+    line-height: 10px;
+    font-weight: inherit;
+    color: rgb(62, 70, 70)
+}
+
+.text{
+   position: relative;
+   margin-block-start: 0;
+   font-size: 45px;
+   
+  }
+  
+  .text:hover{
+    color: black;
+  }
+  
+
+.name{
+    font-size: 12;
+}
