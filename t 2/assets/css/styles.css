@@ -9,17 +9,26 @@ body {
 }
 
 .text{
-   position: relative;
-   margin-block-start: 0;
-   font-size: 45px;
-   
+   position: absolute;
+   text-align: center;
+   font-size: 50px;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 1024px;
+   opacity:0.1;
   }
-  
-  .text:hover{
-    color: black;
-  }
-  
 
+  .text:hover{
+   color: rgb(59, 66, 66);
+    opacity:1;
+  }
+  
 .name{
-    font-size: 12;
+    size: 12pt;
+}
+
+.wrapper{
+    margin: 0 auto 0 auto
+    height: 1024px;
 }
