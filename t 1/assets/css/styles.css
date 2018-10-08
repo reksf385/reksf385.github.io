@@ -1,20 +1,102 @@
 *{box-sizing: border-box;}
 
 body {
-     background: whitesmoke;
+     background: black;
      margin: 0;
      text-align: center;
      font-size: 10px;
      font-family: 'Crimson Text', serif;
     }
-
-.wrapper {
-    width: 80px;
-    margin: 0 auto 0 auto;
-    background: #e7e7e7;
+.wrapper{
+margin: 0 auto 0 auto
 }
 
-img {width: 70%; }
+.square {
+    width:72px;
+    height:53px;
+    background:rgb(216, 216, 216);
+    margin-top: 0px;
+}
+
+.square1{
+   right:0px;
+   width:72px;
+   height:53px;
+   background:rgb(216, 216, 216);
+   margin-top: 0px;
+}
+
+.square2{
+    right:0px;
+    width:72px;
+    height:106px;
+    background:rgb(216, 216, 216);
+    margin-top: 142px;
+ }
+
+ .square3{
+    width:72px;
+    height:106px;
+    background:rgb(216, 216, 216);
+    margin-top: 142px;
+ }
+.square4{
+    right:0px;
+    width:72px;
+    height:106px;
+    background:whitesmoke;
+    margin-top: 337px;
+ }
+
+ .square5{
+    width:72px;
+    height:106px;
+    background:rgb(216, 216, 216);
+    margin-top: 337px;
+ }
+.square6{
+    right:0px;
+    width:72px;
+    height:106px;
+    background:rgb(216, 216, 216);
+    margin-top: 532px;
+ }
+
+ .square7{
+    width:72px;
+    height:106px;
+    background:rgb(216, 216, 216);
+    margin-top: 532px;
+ }
+
+ .square8 {
+    width:72px;
+    height:53px;
+    background:rgb(216, 216, 216);
+    margin-top: 727px;
+}
+ .square9 {
+    width:72px;
+    height:53px;
+    right:0px;
+    background:rgb(216, 216, 216);
+    margin-top: 727px;
+}
+
+.fix{
+    position: fixed;
+}
+
+img {
+    width: 75%; 
+    padding: 10px;
+    margin-top:56px;
+}
+
+/* .img1{ */
+    /* margin-left: 200px;
+    width: 20%;
+} */
 
 a{
     color: grey;
@@ -22,3 +104,4 @@ a{
 
 a:hover {
     color:whitesmoke;
+

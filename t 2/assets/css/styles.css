@@ -8,27 +8,52 @@ body {
     color: rgb(62, 70, 70)
 }
 
+.indo{
+    position: fixed;
+    font-size: 20px;
+    width: 512px;
+    right:55%;
+    opacity:2;
+    line-height: 30px;
+    top:50px;
+    color:  rgb(65, 73, 73)
+}
+
 .text{
-   position: absolute;
-   text-align: center;
-   font-size: 50px;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   width: 1024px;
+   position: fixed;
+   font-size: 20px;
+   top:70px;
+   left: 55%;
+   width: 512px;
    opacity:0.1;
   }
 
   .text:hover{
    color: rgb(59, 66, 66);
     opacity:1;
+    line-height: 30px;
   }
-  
+ 
+.indo:hover{
+    color: rgb(102, 110, 110);
+    opacity:0.1;
+    line-height: 10px;
+}
+
+.circle{
+    height: 25px;
+    width: 25px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    border:3px;
+}
+
 .name{
     size: 12pt;
 }
 
 .wrapper{
-    margin: 0 auto 0 auto
-    height: 1024px;
+    margin: 0 auto 0 auto;
+    width: 1024px;
 }

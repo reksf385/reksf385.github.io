@@ -1,0 +1,43 @@
+html{ 
+    background-image: url("https://giphy.com/embed/26tPbLsr9oE72erjG")no-repeat center center fixed; ;
+    background-size: cover;
+}
+
+body{
+    color: white;
+    font-size: 65px;
+    text-align: center;
+    font-family:  'Cutive Mono', monospace;
+    margin-top:30px;
+    height:780px
+}
+
+.title{
+    margin-top:50px; 
+}
+
+
+.a{
+    position: relative;
+    display:inline-block;
+    margin:0 auto 0 auto;   
+}
+
+
+.text{
+    font-size: 40px;
+}
+
+.wrapper{
+    margin: 0 auto 0 auto;
+    width:1024px;
+    height:780px;
+}
+
+html, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
