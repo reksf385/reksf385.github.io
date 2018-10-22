@@ -1,12 +1,14 @@
 *{box-sizing: border-box;}
 
 body {
-     background: black;
-     margin: 0;
-     text-align: center;
-     font-size: 10px;
-     font-family: 'Crimson Text', serif;
+    background: black;
+    margin: 0;
+    text-align: center;
+    font-size: 13px;
+    color: white;
+    font-family:  'Cutive Mono', monospace;
     }
+
 .wrapper{
 margin: 0 auto 0 auto
 }

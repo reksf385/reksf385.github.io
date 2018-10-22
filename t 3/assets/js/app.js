@@ -1,8 +1,8 @@
 var sites = [
-    'https://reksf385.github.io/',
-    'http://www.stackoverflow.com',
-    'http://www.example.com',
-    'http://www.youtube.com'
+    'https://reksf385.github.io/3/food/index.html',
+    'https://reksf385.github.io/3/cellphones/index.html',
+    'https://reksf385.github.io/3/games/index.html',
+    'https://reksf385.github.io/3/home/index.html',
 ];
 
 function randomSite() {

@@ -1,0 +1,36 @@
+
+body{
+    background-size:cover;
+    text-align: center;
+    color: white;
+    font-family:  'Cutive Mono', monospace;
+    font-stretch: extra-expanded;
+    font-size: 30px;
+    background-position: center;
+    background-size: 110%;
+}
+
+.one{
+    text-align: left;
+    text-align: right;
+    position: fixed;
+    font-size: 20px;
+    top:700px;
+    right: 90%;
+    width: 512px;
+}
+
+.two{
+    text-align: right;
+    position: fixed;
+    font-size: 40px;
+    top:700px;
+    left: 60%;
+    width: 512px;
+}
+
+a {
+    text-decoration: none; 
+    color: blue;
+}
+a:hover{color: rgb(55, 0, 128);}
