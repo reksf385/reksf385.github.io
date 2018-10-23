@@ -1,19 +1,30 @@
 body {
-    background: #93DAD6;
-    font-size: 20px;
+    font-size: 50px;
     font-family: 'Montserrat', sans-serif;
-}
-.a {
-    width: 200px; 
-}
-.b{
-    width: 250px;
+    background-size: cover; 
+    color:white;
+    line-height: 20px;
 }
 
-.header {
-    background: teal;
+
+p:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+    line-height: 100px;
 }
 
-.content {
-    background: paleturquoise;
+p{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+    }
+
+div{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -90px;
+    margin-left: 250px;
 }

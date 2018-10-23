@@ -1,19 +1,33 @@
-body {
-    background: #93DAD6;
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-}
-.a {
-    width: 200px; 
-}
-.b{
-    width: 250px;
+#blur{
+	font-size: 40px;
+	color: transparent;
+	text-shadow: 0 0 8px rgb(224, 224, 224);
 }
 
-.header {
-    background: teal;
+#blur1{
+	font-size: 25px;
+	color: transparent;
+	text-shadow: 0 0 4px rgb(201, 199, 199);
 }
 
-.content {
-    background: paleturquoise;
+body{
+    opacity: 8;
+    background-size: cover; 
+}
+
+.one{
+    text-align: right;
+    position: fixed;
+    font-size: 40px;
+    top:679px;
+    left: 20%;
+}
+
+.two{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -10px;
+    margin-left: -100px;
+    text-shadow: 0 0 8px rgb(255, 255, 255);
 }
