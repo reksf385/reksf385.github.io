@@ -1,6 +1,6 @@
 var sites = [
     'https://reksf385.github.io/3/food/index.html',
-    'https://reksf385.github.io',
+    'https://reksf385.github.io/3/shows/index.html',
 ];
 
 function randomSite() {
