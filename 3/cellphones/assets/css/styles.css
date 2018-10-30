@@ -1,19 +1,74 @@
+* {
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+
 body {
-    background: #93DAD6;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
+    background-size: 80%;
+
 }
-.a {
-    width: 200px; 
+.main{
+    text-align: center;
 }
-.b{
-    width: 250px;
+.one{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10%;
+}
+.two{
+    position: fixed;
+    right: 70px;;
+    width: 12%;
+}
+.three{
+    position: fixed;
+    right: 150px;;
+    width: 13%;
+}
+.four{
+    position: fixed;
+    right: 190px;;
+    width: 26%;
+}
+.five{
+    position: fixed;
+    right: 400px;;
+    width: 30%;
+    top: 400px;
 }
 
-.header {
-    background: teal;
+.eight{
+    position: fixed;
+    right: 900px;
+    top: 0px;
+    width: 50%;
 }
-
-.content {
-    background: paleturquoise;
+.nine{
+    position: fixed;
+    right: 700px;
+    top: 400px;
+    width: 50%;
+}
+.ten{
+    position: fixed;
+    right: 700px;
+    top: 400px;
+    width: 20%;
+}
+.ten{
+    position: fixed;
+    right: 700px;
+    top: 400px;
+    width: 20%;
+}
+html, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
 }
