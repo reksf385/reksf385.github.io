@@ -75,6 +75,7 @@ ul,li{
   font-size: 80px;
   top: 40px;
   right: 20px;
+  cursor: pointer;
 }
 
 .hide {
