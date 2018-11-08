@@ -1,10 +1,10 @@
 *{box-sizing: border-box;}
 
 .list{
-    height: 150px;
-    padding: 30px;
+    height: 80px;
+    padding: 20px;
     background:  rgb(198, 211, 209);
-    font-size: 30px;
+    font-size: 10px;
     text-align: center;
     font-weight: bold;
     vertical-align: top;
@@ -14,7 +14,7 @@ ul,li{
     margin: 0;
     padding: 0;
     list-style: none;
-    line-height: 60px;
+    line-height: 35px;
   }
   
   body{
@@ -27,7 +27,7 @@ ul,li{
 
   .item{
     display: inline-block;
-    font-size: 25px;  
+    font-size: 15px;  
   }
 
   .item:hover{
@@ -36,15 +36,15 @@ ul,li{
 
   .scenarios{
     background:  rgb(195, 207, 205);
-    font-size: 48px;
+    font-size: 25px;
     vertical-align: bottom;
-    height: 1024px;
+    height: 800px;
     vertical-align: top;
     text-align: left;
     width: 65%;
     padding-top: 50px;
     padding-bottom: 50px;
-    margin-left: 258px;
+    margin-left: 275px;
 
   }
 
@@ -70,3 +70,23 @@ element{
 .hide {
   display: none;
 }
+
+input{
+  background: rgb(195, 207, 205);
+  border: 0;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+  font-family: 'Cutive Mono', monospace;
+  width: 150px;
+  outline: none;
+}
+
+input:hover{cursor: pointer;}
+
+input.time{width: 360px;}
+input.did{width: 450px;}
+input.topic{width: 170px;}
