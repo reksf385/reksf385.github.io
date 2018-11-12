@@ -1,30 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
+
 body {
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Montserrat', sans-serif;
     background-size: cover; 
     color:white;
-    line-height: 20px;
+
 }
 
 
-p:hover{
-    animation-play-state: paused;
-    cursor: pointer;
-    line-height: 100px;
+html{
+    background-image:"https://giphy.com/embed/MuAsb0Gatgo4a4BEYx";
 }
 
 p{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -100px;
-    }
+    letter-spacing: -10px;
+    line-height:6px;
+}
+
+p:hover{
+    cursor: pointer;
+    letter-spacing:normal;
+    line-height:normal;
+}
 
 div{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -90px;
-    margin-left: 250px;
+    margin-left:50px;
+    margin-top: 20px;
 }

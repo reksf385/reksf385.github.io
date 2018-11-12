@@ -1,13 +1,13 @@
 #blur{
 	font-size: 40px;
 	color: transparent;
-	text-shadow: 0 0 8px rgb(224, 224, 224);
+	text-shadow: 0 0 14px rgb(224, 224, 224);
 }
 
 #blur1{
 	font-size: 25px;
 	color: transparent;
-	text-shadow: 0 0 4px rgb(201, 199, 199);
+	text-shadow: 0 0 7px rgb(201, 199, 199);
 }
 
 body{
@@ -19,7 +19,7 @@ body{
     text-align: right;
     position: fixed;
     font-size: 40px;
-    top:679px;
+    top:665px;
     left: 20%;
 }
 
