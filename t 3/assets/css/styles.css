@@ -1,6 +1,7 @@
 html{ 
     background-image: url("https://giphy.com/embed/26tPbLsr9oE72erjG")no-repeat center center fixed; ;
     background-size: cover;
+    color: aliceblue;
 }
 
 body{
@@ -41,3 +42,17 @@ html, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre
     vertical-align: baseline;
 }
 
+footer{
+    font-size: 40px;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+a{color:rgb(255, 255, 255);}
+
+a:hover{color:rgb(0, 0, 0)}
+
+a {text-decoration: none; }
