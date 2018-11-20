@@ -10,7 +10,7 @@ html, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre
 
 body{
     background-position-x: -20px;
-    color: aliceblue;
+    color: #fde7dc;
     font-size: 60px;
     position: fixed;
     top: 50%;
@@ -20,16 +20,8 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-footer{
-    font-size: 40px;
-    color: white;
-    position: fixed;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
-a{color:rgb(255, 255, 255);}
+a{    color: #fde7dc;;}
 
 a:hover{color:rgb(0, 0, 0)}
 
