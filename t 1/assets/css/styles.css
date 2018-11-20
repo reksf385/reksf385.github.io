@@ -106,4 +106,6 @@ a{
 
 a:hover {
     color:whitesmoke;
+}
 
+a{text-decoration: none;}
