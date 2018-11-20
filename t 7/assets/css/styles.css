@@ -10,14 +10,15 @@ html, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre
 
 body{
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
     background-size: cover;
+    background-position: center;
     color:rgb(128, 128, 128);
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .text{
     font-size: 70px;
-    animation: fading 3s infinite;
+    animation: fading 5s infinite;
     position: absolute;
     top: 50%;
     left: 50%;
