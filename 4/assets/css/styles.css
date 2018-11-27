@@ -9,10 +9,20 @@
     background-size: cover;
   }
   
-html{ 
+  html{ 
     background-image: url("https://giphy.com/embed/10pk8d1EoR7HrO")no-repeat center center fixed;
     background-size: cover;
-}
+  }
+
+  footer{
+    color: burlywood;
+    position: fixed;
+    text-align: right;
+    width: 100%;
+    bottom: 0;
+    font-family:  'Cutive Mono', monospace;
+    font-size: 10px;
+  }
 
   ul {
     overflow: hidden;
@@ -24,6 +34,7 @@ html{
     text-align: center;
   }
 
+  a{color: rgb(255, 255, 255);text-decoration: none;}
   }
   @keyframes width-sway {
     0%, 100% {

@@ -1,7 +1,7 @@
 var sites = [
-    '../3sub/food/index.html',
-    '../3sub/shows/index.html',
-    '../3sub/cellphones/index.html',
+    '../3a/index.html',
+    '../3b/index.html',
+    '../3c/index.html',
 ];
 
 function randomSite() {

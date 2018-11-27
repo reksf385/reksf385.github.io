@@ -31,9 +31,12 @@ body{
     width: 10%;
 }
 
+.spc{
+    filter:invert(70%);
+}
 a:hover{
--webkit-filter: blur(5px); 
-filter: blur(4px);
+-webkit-filter: blur(2px) invert(75%); 
+filter: blur(2px) invert(75%);
 cursor: pointer;
 }
 
@@ -46,4 +49,8 @@ cursor: pointer;
     display: none;
 }
 
-a{color:white;}
+a{color:white;text-decoration: none;}
+
+img:hover{
+    -webkit-filter: blur(2px); 
+    filter: blur(4px);}

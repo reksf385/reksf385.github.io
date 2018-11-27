@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
+
+body {
+    font-size: 5px;
+    font-family: 'Montserrat', sans-serif;
+    color:black;
+    font-weight: bold;
+    text-align: center;
+}
+
+html{
+    background-image:"https://giphy.com/embed/MuAsb0Gatgo4a4BEYx";
+}
+
+p{
+    letter-spacing: -10px;
+    line-height:6px;
+}
+
+p:hover{
+    cursor: pointer;
+    letter-spacing:normal;
+    line-height:normal;
+}
+
+img{
+    width: 5%;
+    position:  absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.bg00{
+    width: 10%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.42;
+}
+.bg0{
+    width: 20%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.4;
+}
+
+.bg{
+    width: 40%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.35;
+}
+
+.bg1{
+    width: 60%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.3;
+
+}
+
+.bg2{
+    width: 80%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.2;
+}
+.bg3{
+    width: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.15;
+}
+
+.text{
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+position: absolute;
+}
+
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}

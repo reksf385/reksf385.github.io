@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+body {
+    font-size: 17px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 16px;
+    letter-spacing: -1px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.text{
+    color: white;
+    font-size: 120px;
+    position: fixed;
+    left: 0;
+    top:230px;
+    text-align: center;
+    font-family:  'Cutive Mono', monospace;
+    font-weight: bolder;
+}
+.text1{
+    color: white;
+    font-size: 100px;
+    position: fixed;
+    top: 72px;
+    right: 0;
+    text-align: center;
+    font-family:  'Cutive Mono', monospace;
+    font-weight: bolder;
+}
+.text2{
+    color: white;
+    font-size: 100px;
+    position: fixed;
+    right: 0;
+    top:370px;
+    text-align: center;
+    font-family:  'Cutive Mono', monospace;
+    font-weight: bolder;
+}
+.text3{
+    color: white;
+    font-size: 100px;
+    position: fixed;
+    text-align: center;
+    top: 530px;
+    left:0px;
+    font-family:  'Cutive Mono', monospace;
+    font-size: 120px;
+    font-weight: bolder;
+}
+
+.text4{
+    color: white;
+    font-size: 100px;
+    position: fixed;
+    text-align: center;
+    top:680px;
+    right:0;
+    font-family:  'Cutive Mono', monospace;
+    font-weight: bolder;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*background-repeat:repeat;
+background-position: -170px;
+background-size: 15%;
+
