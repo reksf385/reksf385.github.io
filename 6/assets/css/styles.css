@@ -41,9 +41,8 @@ ul,li{
     height: 800px;
     vertical-align: top;
     text-align: left;
-    width: 65%;
+    width: 50%;
     padding-top: 50px;
-    padding-bottom: 50px;
     margin-left: 275px;
 
   }
@@ -88,5 +87,5 @@ input{
 input:hover{cursor: pointer;}
 
 input.time{width: 360px;}
-input.did{width: 450px;}
+input.did{width: 360px;}
 input.topic{width: 170px;}

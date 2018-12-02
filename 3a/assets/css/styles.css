@@ -3,13 +3,15 @@
     vertical-align: top;
 }
 
+.wrapper{
+    margin: 0 auto 0 auto
+    }
 
 body {
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     background-size: 150%;
     "https://giphy.com/embed/l378wcSfS7eXWQgla"
-
 }
 .main{
     text-align: center;

@@ -1,0 +1,32 @@
+one{
+    width: 150px;
+    height: 714px;
+    position: relative;
+    -webkit-animation-name: w2;
+    -webkit-animation-duration: 20s;
+    animation-name: w2;
+    animation-duration: 40s;
+}
+
+@keyframes w2
+
+0% {
+    left: 600px;
+    top: 0px;
+}
+25% {
+    left: 0px;
+    top: 0px;
+}
+50% {
+    left: 600px;
+    top: 600px;
+}
+75% {
+    left: 0px;
+    top: 0px;
+}
+100% {
+    left: 0px;
+    top: 0px;
+}

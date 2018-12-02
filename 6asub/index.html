@@ -9,35 +9,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href="assets/css/styles.css" media="all" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet"> 
-  </head>
 
-  <body class="wrapper">
+<body "wrapper">
 
-    <div class="list">
-      Scenario
-    <ul>
-      <li class="item">A</li>
-    </ul>
+<div class="wrapper border">
+    <p>Scenarios</p>
+    <a href="#" onclick="randomSite();"><p class="type">A</p></a>
+</div>
+    
+  <div class="scenarios">
+
+    <div class="convoA"> 
+
+      <div class="subject1">
+        Hey,<input placeholder="a name"></input> do you remember?
+        <br>
+        <br>
+        <a class="button" data-target=".response1" href="#">>></a>
+      </div>
+      <br style="clear: both;">
+      <br style="clear: both;">
+
+      <div class="subject2 response1 hide">
+        remember what?
+        <br>
+        <br>
+        <a class="button" data-target=".response2" href="#">>></a>
+      </div>
+      <br style="clear: both;">
+      <br style="clear: both;">
+
+      <div class="subject1 response2 hide">
+          You know,that time in
+          <br>
+          <input class="time" placeholder="an event/period in life">
+          <br>
+          when we<input class="time" placeholder="action/event"></input>
+          <br>
+          <br>
+          <a class="button" data-target=".response3" href="#">>></a>
+      </div>
+      <br style="clear: both;">
+      <br style="clear: both;">
+            
+      <div class="subject2 response3 hide">
+          yeah I do, what about it?
+           <br>
+           <br>
+           <a class="button" data-target=".response4" href="#">>></a>
+      </div>
+      
+        <br style="clear: both;">
+        <br style="clear: both;">
+
+      <div class="subject1 response4 hide">
+          It was so much fun right? I loved when <br>we did
+          <input class="did" placeholder="&hellip;"></input> 
+          <br>
+          I wish I could just go back to that time and just relieve those moments..
+          <br>
+          <br>
+          <a class="button" data-target=".response5" href="#">>></a>
+      </div>
+        <br style="clear: both;">
+        <br style="clear: both;">
+
+      <div class="subject2 response5 hide">
+          hahaha what a child, the present is now, the past is the past, grow up man
+          <br>
+          <br>
+          <a class="button" data-target=".response6" href="#">>></a>
+      </div>
+          <br style="clear: both;">
+          <br style="clear: both;">        
+
+      <div class="response6 subject1 hide">
+            <a class="button" data-target=".response-5" href="#">(&hellip;)</a>
+      </div>
+
+      <br style="clear: both;">
+      <br style="clear: both;">
+            
+
+
+
+
+
     </div>
 
-    <div class="scenarios">
 
-        <div class="convoA hide">
-      
-          <div class="subject1">
-           <form action="../6a1/index.html" target="_blank">
-                Hey,<input type="text" placeholder="a name"></input> do you remember?
-                <input type="submit" value=">>">
-          </form> 
-          </div>
-          <br style="clear: both;">
-          <br style="clear: both;">
-      
+  </div>
 
-    </div>
 
-    <script src="assets/js/app.js"></script>
+</body>
 
-  </body>
+  <script src="assets/js/app.js"></script>
+
 </html>
