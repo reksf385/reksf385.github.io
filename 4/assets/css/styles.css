@@ -21,7 +21,7 @@
     bottom: 0;
   }
   
-  .circle{
+.circle{
     width: 75px;
     height: 75px;
     background:none;
@@ -37,6 +37,9 @@
     -o-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
 }
 
+.circle:hover{
+cursor: pointer;
+}
 
   ul {
     overflow: hidden;
