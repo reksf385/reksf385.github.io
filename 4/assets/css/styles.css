@@ -20,26 +20,6 @@
     width: 100%;
     bottom: 0;
   }
-  
-.circle{
-    width: 75px;
-    height: 75px;
-    background:none;
-    opacity: 0.9;
-    border-radius: 100%;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow:  0 0 15px  rgba(0,0,0,0.6);
-    -moz-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
-    -webkit-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
-    -o-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
-}
-
-.circle:hover{
-cursor: pointer;
-}
 
   ul {
     overflow: hidden;
@@ -53,6 +33,7 @@ cursor: pointer;
 
   a{color: rgb(255, 255, 255);text-decoration: none;}
   }
+
   @keyframes width-sway {
     0%, 100% {
       width: 100px;
@@ -61,6 +42,7 @@ cursor: pointer;
       width: 400%;
     }
   }
+
   li {
     position: absolute;
     top: 0;
@@ -212,3 +194,24 @@ cursor: pointer;
       transform: rotateY(-100deg) translateY(-5vh) rotate(0deg);
     }
   }
+
+  
+.circle{
+  width: 75px;
+  height: 75px;
+  background:none;
+  opacity: 0.9;
+  border-radius: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow:  0 0 15px  rgba(0,0,0,0.6);
+  -moz-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
+  -o-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
+  }  
+
+.circle:hover{
+cursor: pointer;
+}
