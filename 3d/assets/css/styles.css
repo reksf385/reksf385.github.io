@@ -1,32 +1,19 @@
-one{
-    width: 150px;
-    height: 714px;
-    position: relative;
-    -webkit-animation-name: w2;
-    -webkit-animation-duration: 20s;
-    animation-name: w2;
-    animation-duration: 40s;
+body{
+    margin: 0;
 }
 
-@keyframes w2
 
-0% {
-    left: 600px;
-    top: 0px;
+img{
+    display: block;
 }
-25% {
-    left: 0px;
-    top: 0px;
+
+.1{
+    z-index: -1;
+    position:absolute;
+    width:20%;
 }
-50% {
-    left: 600px;
-    top: 600px;
-}
-75% {
-    left: 0px;
-    top: 0px;
-}
-100% {
-    left: 0px;
-    top: 0px;
+
+.2{
+    position: absolute;
+    top: 40px;
 }

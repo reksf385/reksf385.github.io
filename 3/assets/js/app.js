@@ -2,6 +2,7 @@ var sites = [
     '../3a/index.html',
     '../3b/index.html',
     '../3c/index.html',
+    '../3d/index.html',
 ];
 
 function randomSite() {
