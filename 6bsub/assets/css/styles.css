@@ -70,8 +70,6 @@ input.did{width: 450px;}
 input.topic{width: 170px;}
 
 
-
-
 .subject1{
     width: 50%;
     float: left;
@@ -83,3 +81,13 @@ input.topic{width: 170px;}
   }
 
 .hide{display: none;}
+
+footer{
+    position: fixed;
+    bottom:0;
+    width: 100%;
+}
+
+img{
+    width: 1%;
+}

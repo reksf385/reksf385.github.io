@@ -24,7 +24,7 @@ body{
   position: absolute;
   transform: rotate(-20deg) skewX(20deg) skewY(5deg);
   top: 61%;
-  left: 40%;
+  left: 10%;
 }
 
 @keyframes fading{
@@ -36,4 +36,8 @@ body{
 a{
   text-decoration: none; 
   color: aliceblue;
+}
+
+.repeat{
+  width: 1%;
 }

@@ -59,5 +59,20 @@ body {
 }
 
 a{text-decoration: none; color: rgb(112, 121, 121);}
-a:hover{color: rgb(59, 66, 66);}
+a:hover{opacity:0.5;}
+
+img{
+    width: 2%;
+    opacity: 0.2;
+}
+
+footer{
+    color: white;
+    position: fixed;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
 

@@ -109,3 +109,8 @@ a:hover {
 }
 
 a{text-decoration: none;}
+
+.repeat{
+    width:5%;
+    filter: grayscale(100%);
+}

@@ -1,7 +1,7 @@
 var sites = [
-    '../6asub/index.html',
-    '../6bsub/index.html',
-    '../6csub/index.html',
+    '6asub/index.html',
+    '6bsub/index.html',
+    '6csub/index.html',
 ];
 
 function randomSite() {
