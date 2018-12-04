@@ -3,6 +3,11 @@ $('.button').click(function() {
 
     $(target).removeClass('hide');
 
+    console.log('hihihi')
+    
+    $("html, body").animate({ scrollTop: $(document).height() }, 0);
+
+
 });
 
 var sites = [

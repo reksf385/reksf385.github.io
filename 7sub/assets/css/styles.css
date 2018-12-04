@@ -24,7 +24,7 @@ body{
   position: absolute;
   transform: rotate(-20deg) skewX(20deg) skewY(5deg);
   top: 61%;
-  left: 10%;
+  left: 40%;
 }
 
 @keyframes fading{
@@ -38,6 +38,18 @@ a{
   color: aliceblue;
 }
 
-.repeat{
-  width: 1%;
+.circle{
+  width: 75px;
+  height: 75px;
+  background:none;
+  opacity: 0.9;
+  border-radius: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow:  0 0 15px  rgba(0,0,0,0.6);
+  -moz-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
+  -o-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
 }

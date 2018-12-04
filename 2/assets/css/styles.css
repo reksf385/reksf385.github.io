@@ -66,13 +66,23 @@ img{
     opacity: 0.2;
 }
 
-footer{
-    color: white;
-    position: fixed;
+
+.circle{
+    width: 75px;
+    height: 75px;
+    background:none;
+    opacity: 0.9;
+    border-radius: 100%;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100%;
+    box-shadow:  0 0 15px  rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
 }
 
+.circle:hover{
+
+}

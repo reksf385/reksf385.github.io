@@ -24,3 +24,8 @@ a{color:azure;}
 a:hover{color:rgb(149, 177, 175)}
 
 a {text-decoration: none; }
+
+/*.circle:hover{
+    background: white;
+    opacity: 0.1;
+}
