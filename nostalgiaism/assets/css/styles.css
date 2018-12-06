@@ -1,0 +1,58 @@
+body {
+    background: rgb(124, 158, 156);
+    font-size: 23px;
+    text-align: center;
+    font-family:  'Cutive Mono', monospace;
+    width: 59%;
+    margin:0 auto;
+    line-height: 50px;
+    color: rgb(48, 47, 47);
+}
+
+.wrapper{
+    margin: 0 auto 0 auto;
+}
+
+.circle{
+    width: 75px;
+    height: 75px;
+    background:none;
+    opacity: 0.9;
+    border-radius: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow:  0 0 20px  rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 20px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 20px  rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 20px  rgba(0,0,0,0.6);
+}
+
+.circle:hover{
+    opacity: 0.1;
+}
+
+.title{
+    font-size: 35px;
+}
+
+.content{
+    line-height: 36px;
+}
+
+//*<div class="content">
+    as described in dictionaries, the suffix -ism <br> has multiple meanings to them, and two stood out:
+    <br>
+    <p>
+       <ol>
+        <li> an  "abnormal state or condition resulting<br>from excess of a (specified) thing". </li>
+          <p>and</p>
+        <li>a "manner of action or behavior characteristic<br>of a (specified) person or thing".</li>
+      </ol> 
+    </p>  
+   <p>
+     similar to both meanings, nostalgiaism to me <br>is the act or state of being drowned in nostalgia, regardless of the positive and negative associations from it.
+   </p>
+      
+</div>

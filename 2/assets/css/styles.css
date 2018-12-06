@@ -5,7 +5,7 @@ body {
     font-family:  'Cutive Mono', monospace;
     line-height: 10px;
     font-weight: inherit;
-    color: rgb(112, 121, 121);
+    color: rgb(240, 245, 245);
 }
 
 .indo{
@@ -35,7 +35,7 @@ body {
   }
  
 .indo:hover{
-    color: rgb(102, 110, 110);
+    color: rgb(166, 179, 179);
     opacity:0.1;
     line-height: 10px;
 }
@@ -58,7 +58,7 @@ body {
     width: 1024px;
 }
 
-a{text-decoration: none; color: rgb(112, 121, 121);}
+a{text-decoration: none; color: rgb(184, 197, 197);}
 a:hover{opacity:0.5;}
 
 img{
