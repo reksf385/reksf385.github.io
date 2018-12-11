@@ -1,0 +1,77 @@
+html{ 
+    background-image: url("https://giphy.com/embed/26tPbLsr9oE72erjG")no-repeat center center fixed; ;
+    background-size: cover;
+    color: aliceblue;
+}
+
+body{
+    color: white;
+    font-size: 65px;
+    text-align: center;
+    font-family:  'Cutive Mono', monospace;
+    margin-top:30px;
+}
+
+.title{
+    margin-top:95px; 
+}
+
+
+.a{
+    position: relative;
+    display:inline-block;
+    margin:0 auto 0 auto;   
+}
+
+
+.text{
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.wrapper{
+    margin: 0 auto 0 auto;
+}
+
+html, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
+
+footer{
+    font-size: 30px;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+a{color:rgb(255, 255, 255);}
+
+a:hover{color:rgb(0, 0, 0)}
+
+a {text-decoration: none; }
+
+.circle{
+    width: 75px;
+    height: 75px;
+    background: none;
+    opacity: 0.9;
+    border-radius: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow:  0 0 15px  rgba(255, 255, 255, 0.6);
+    -moz-box-shadow: 0 0 15px  rgba(255, 255, 255, 0.6);
+    -webkit-box-shadow: 0 0 15px  rgba(255, 255, 255, 0.6);
+    -o-box-shadow: 0 0 15px  rgba(255, 255, 255, 0.6);
+}
+
+.circle:hover{
+    opacity: 0.1;
+}

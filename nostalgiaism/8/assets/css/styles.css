@@ -1,0 +1,62 @@
+*{box-sizing: border-box;}
+
+html, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
+
+.circle:hover{
+    opacity: 0.4;
+}
+
+body{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    -ms-flex: 50%;
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 10%;
+}
+
+.spc{
+    filter:invert(70%);
+}
+
+
+.circle{
+    width: 75px;
+    height: 75px;
+    background:none;
+    opacity: 0.9;
+    border-radius: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow:  0 0 15px  rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
+}
+
+/*.circle:hover{
+    background: white;
+    opacity: 0.1;
+}

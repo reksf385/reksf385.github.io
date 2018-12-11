@@ -1,0 +1,59 @@
+*{box-sizing: border-box;}
+
+.wrapper{0 auto 0 auto;}
+
+html, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
+
+body{
+  text-align: center;
+  background-size: cover;
+  color:rgb(255, 255, 255);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.text{
+  font-size: 10px;
+  animation: fading 1s infinite;
+  text-align: center;
+  position: absolute;
+  transform: rotate(-20deg) skewX(20deg) skewY(5deg);
+  top: 61%;
+  left: 40%;
+}
+
+@keyframes fading{
+  0%{opacity:0}
+  50%{opacity:1}
+  100%{opacity:0}
+}
+
+a{
+  text-decoration: none; 
+  color: aliceblue;
+}
+
+.circle{
+  width: 75px;
+  height: 75px;
+  background:none;
+  opacity: 0.9;
+  border-radius: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow:  0 0 15px  rgba(0,0,0,0.6);
+  -moz-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
+  -o-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
+}
+
+.circle:hover{
+  opacity: 0.2;
+}

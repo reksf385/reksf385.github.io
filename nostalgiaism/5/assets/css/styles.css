@@ -1,0 +1,76 @@
+body{
+    background-size:cover;
+    text-align: center;
+    color: white;
+    font-family:  'Cutive Mono', monospace;
+    font-stretch: extra-expanded;
+    font-size: 30px;
+    background-position: center;
+    background-size: 110%;
+    font-weight: bolder
+}
+
+.one{
+    text-align: left;
+    text-align: right;
+    position: fixed;
+    font-size: 20px;
+    top:700px;
+    right: 90%;
+    width: 512px;
+}
+
+.two{
+    text-align: right;
+    position: fixed;
+    font-size: 40px;
+    top:700px;
+    left: 60%;
+    width: 512px;
+}
+
+.circle{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    border-bottom: 4px solid blue;
+}
+a:hover{color: rgb(55, 0, 128);
+border-bottom: none;}
+
+img{
+    width: 2%;
+}
+
+.circle{
+    width: 75px;
+    height: 75px;
+    background:none;
+    opacity: 0.9;
+    border-radius: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow:  0 0 15px  rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
+}
+
+.circle:hover{
+    opacity: 0.4;
+}
+
+/**mark{
+   background-color:rgba(240,248,255,0.8);
+}
+mark:hover{
+    background-color: aliceblue;
+}
