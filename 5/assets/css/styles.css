@@ -41,7 +41,8 @@ a {
     text-decoration: none;
     border-bottom: 4px solid blue;
 }
-a:hover{color: rgb(55, 0, 128);}
+a:hover{color: rgb(55, 0, 128);
+border-bottom: none;}
 
 img{
     width: 2%;
