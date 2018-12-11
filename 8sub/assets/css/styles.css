@@ -24,10 +24,10 @@ body{
   width: 75px;
   height: 75px;
   background:none;
-  opacity: 0.9;
+  opacity: 1;
   border-radius: 100%;
   position: fixed;
-  top: 50%;
+  top: 49%;
   left: 50%;
   transform: translate(-50%, -50%);
   box-shadow:  0 0 15px  rgba(0,0,0,0.6);
@@ -41,7 +41,7 @@ cursor: pointer;
 }
 
 .circle:hover{
-
+  opacity: 0.3;
 }
 
 a{    color: #fde7dc;;}
