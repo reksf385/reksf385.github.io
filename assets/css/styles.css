@@ -10,7 +10,7 @@ body {
 }
 
 .title{
-    font-size: 20;
+    font-size: 30;
 }
 
 .header {
@@ -23,9 +23,12 @@ body {
 
 img {width: 130px; }
 
-a{color:azure;}
+a{
+color:rgb(149, 177, 175);
+text-shadow: 0 0 1px rgb(39, 39, 39);
+}
 
-a:hover{color:rgb(149, 177, 175)}
+a:hover{color:azure;text-shadow: 0 0 1px rgb(255, 255, 255);}
 
 a {text-decoration: none; }
 
