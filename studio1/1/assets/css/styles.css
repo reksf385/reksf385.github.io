@@ -1,0 +1,645 @@
+*{box-sizing: border-box;}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 0px;
+  line-height: 50pt;  
+  word-spacing: 135px;
+  width: 100%;
+}
+
+.wrapper{
+  margin: 0 auto 0 auto
+}
+
+.content{
+  background: #fdfdfd;
+  font-family: study, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17pt;
+  width: 100%;
+  
+}
+
+.text{
+  color: transparent;
+	text-shadow: 0 0 9px rgb(204, 203, 203);
+}
+
+/*.bold{
+  text-emphasis: weight;
+  text-shadow: 0 0 9px rgb(97, 97, 97);
+}*/
+
+span:hover{
+  color: black;
+  -o-transition:.6s;
+  -ms-transition:.6s;
+  -moz-transition:.6s;
+  -webkit-transition:.6s;
+  transition:.6s;
+  cursor:help;
+  word-spacing: normal;
+  font-size: 50pt;
+  text-shadow: 0 0 7px rgb(201, 199, 199);
+}
+
+mark{
+  background-color: black;
+  color: black;
+}
+
+/*posisi*/
+
+.one{
+  position: absolute;
+  top: -40px;
+  left: 20px;
+  -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4s both;
+  -moz-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4s both;
+  -ms-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4s both;
+  -o-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4s both;
+  animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+}
+
+.two{
+  position: absolute;
+  top: 60px;
+  left: 100px;
+  -webkit-animation: fade-in 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+  -moz-animation: fade-in 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+  -ms-animation: fade-in 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+  -o-animation: fade-in 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+  animation: fade-in 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+}
+
+.three{
+  position: absolute;
+  top: 400px;
+  left: 630px;
+	-webkit-animation: fade-in 1.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
+	-moz-animation: fade-in 1.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
+	-ms-animation: fade-in 1.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
+	-o-animation: fade-in 1.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
+	animation: fade-in 1.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
+}
+
+
+.four{
+  position: absolute;
+  top: 10px;
+  left: 500px;
+  -webkit-animation: fade-in 2.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -moz-animation: fade-in 2.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -ms-animation: fade-in 2.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -o-animation: fade-in 2.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  animation: fade-in 2.1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+}
+
+.five{
+  position: absolute;
+  top: 300px;
+  left: 750px;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2.5s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2.5s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2.5s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2.5s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2.5s both;
+}
+
+.six{
+  position: absolute;
+  top: 900px;
+  left: 750px;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+}
+
+.seven{
+  position: absolute;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+}
+
+.eight{
+  position: absolute;
+  top: 798px;
+  left: 500px;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+}
+
+.nine{
+  position: absolute;
+  top: 1100px;
+  text-align: center;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+}
+
+.ten{
+  position: absolute; 
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4.5 s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4.5 s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4.5 s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4.5 s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4.5s both;
+}
+
+.eleven{ 
+  position: absolute;
+  text-align: center;
+  top: 1000px;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+}
+
+.twelve{ 
+  position: absolute;
+  top: 1060px;
+  left: 500px;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+}
+
+.thirteen{ 
+  position: absolute;
+  top: 1280px;
+  left: 500px;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+}
+
+.fourteen{ 
+  position: absolute;
+  top: 1900px;
+  left: 200px;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
+}
+
+.fifteen{ 
+  position: absolute;
+  top: 1960px;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+}
+
+.sixteen{ 
+  position: absolute;
+  top: 2000px;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+  opacity: 0.1;
+}
+
+.seventeen{
+  position: absolute;
+  top: 2800px;
+  left: 600px;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+}
+
+.eighteen{
+  position: absolute;
+  top: 3000px;
+  left: 100px;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+}
+
+.nineteen{
+  position: absolute;
+  top: 3000px;
+  left: 100px;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+}
+
+.twenty{
+  position: absolute;
+  top: 3350px;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+}
+
+.twentyone{
+  position: absolute;
+  top: 3350px;
+  left: 400px;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+}
+
+.twentytwo{
+  position: absolute;
+  top: 3550px;
+  left: 200px;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+}
+
+.twentythree{
+  position: absolute;
+  top: 3900px;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+}
+
+.twentyfour{
+  position: absolute;
+  top: 3400px;
+  left: 400px;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+}
+
+.twentyfive{
+  position: absolute;
+  top: 3900px;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+}
+
+.twentysix{
+  position: absolute;
+  top: 3900px;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+}
+
+.twentyseven{
+  position: absolute;
+  margin:auto;
+  top: 5000px;
+  left: 100px;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+}
+
+.twentyeight{
+  position: absolute;
+  top: 5000px;
+  margin: auto;
+  left: 100px;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+}
+
+.twentynine{
+  position: absolute;
+  top: 4790px;
+  margin: auto;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+}
+
+/*animasi*/
+
+.satu{
+  width: 50%;
+  opacity: 0.4;
+}
+
+.dua{
+  opacity: 0.4;
+  width:60%;
+}
+
+.tiga{
+  width:25%;
+  opacity: 0.2;
+}
+
+.empat{
+  width: 30%;
+  opacity: 0.4;
+}
+
+.lima{
+  width: 70%;
+  opacity: 0.4;
+}
+
+.enam{
+  width: 70%;
+  opacity: 0.4;
+}
+
+.tujuh{
+  width: 100%;
+  opacity: 0.4;
+}
+
+.delapan{
+  width: 100%;
+  opacity: 0.4;
+}
+
+.sembilan{
+  width: 60%;
+  opacity: 0.4;
+}
+
+.sepuluh{
+  width: 142.2%;
+  opacity: 0.4;
+}
+
+.sebelas{
+  width: 60%;
+  opacity: 0.4;
+}
+
+.duabelas{
+  width: 100%;
+  opacity: 0.4;
+}
+
+.tigabelas{
+  width: 85%;
+  opacity: 0.5;
+}
+
+.empatbelas{
+  width: 85%;
+  opacity: 0.5;
+}
+
+.limabelas{
+  width: 85%;
+  opacity: 0.4;
+}
+
+.enambelas{
+  width: 142.2%;
+  opacity: 0.6;
+}
+
+.tujuhbelas{
+  width: 75%;
+  opacity: 0.4;
+}
+
+.delapanbelas{
+  opacity: 0.4;
+}
+
+.sembilanbelas{
+  opacity: 0.2;
+}
+
+.duapuluh{
+  width: 66%;
+  opacity: 0.2;
+}
+
+.duapuluhsatu{
+  width: 90%;
+  opacity: 0.75;
+}
+
+.duapuluhdua{
+  width: 40%;
+  opacity: 0.2;
+}
+
+.duapuluhtiga{
+  width: 142.2%;
+  opacity: 1;
+}
+
+.duapuluhempat{
+  width: 90%;
+  opacity: 0.2;
+}
+
+.duapuluhlima{
+  width: 142.2%;
+  opacity: 0.3;
+}
+
+.duapuluhenam{
+  width: 142.2%;
+  opacity: 0.3;
+}
+
+.duapuluhtujuh{
+  width: 120%;
+  opacity: 0.5;
+}
+
+.duapuluhdelapan{
+  width: 120%;
+  opacity: 0.5;
+}
+
+.duapuluhsembilan{
+  width: 66%;
+  opacity: 0.5;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2019-2-11 19:0:10
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation fade-in
+ * ----------------------------------------
+ */
+@-moz-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-ms-keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-o-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.fade-out {
+	-webkit-animation: fade-out 5s ease-out 7.5s reverse both;
+  -moz-animation:fade-out 5s ease-out 7.5s reverse both;
+  -ms-animation: fade-out 5s ease-out 7.5s reverse both;
+   -o-animation:fade-out 5s ease-out 7.5s reverse both;	  
+   animation: fade-out 5s ease-out 7.5s reverse both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2019-2-10 19:39:41
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation fade-out
+ * ----------------------------------------
+ */
+
+ @-moz-keyframes fade-out {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-ms-keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-o-keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.circle{
+  width: 400px;
+  height: 400px;
+  background:white;
+  opacity: 0.9;
+  border-radius: 100%;
+  position: fixed;
+  top: 90%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+  box-shadow:  0 0 15px  rgba(0,0,0,0.6);
+  -moz-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
+  -o-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
+  z-index: 3;
+}
+
+.circle:hover{
+  opacity: 0.1;
+}
