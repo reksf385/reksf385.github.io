@@ -1,0 +1,50 @@
+*{box-sizing: border-box;}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: study, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.text{
+  margin: auto;
+  width:30%;
+  z-index: -1;
+}
+
+.two{
+  margin: auto;
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+
+marquee:hover{
+  font-weight: bolder;
+}
+
+.circle{
+  width: 400px;
+  height: 400px;
+  background:white;
+  opacity: 0.9;
+  border-radius: 100%;
+  position: fixed;
+  top: 90%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+  box-shadow:  0 0 15px  rgba(0, 0, 0, 0.199);
+  -moz-box-shadow: 0 0 15px  rgba(0,0,0,0.199);
+  -webkit-box-shadow: 0 0 15px  rgba(0,0,0,0.199);
+  -o-box-shadow: 0 0 15px  rgba(0,0,0,0.199);
+  z-index: 1;
+}
+
+.circle:hover{
+  opacity: 0.1;
+}

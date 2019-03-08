@@ -1,0 +1,170 @@
+body{
+  margin: auto;
+  padding: 0;
+  font-family: study, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50pt;
+  line-height: 10px;
+  text-shadow: 0 0 1px rgb(39, 39, 39);
+  color:transparent;
+  color: white;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000; 
+  
+}
+
+.one{
+  margin: auto;
+  height: 100%;
+  z-index: 2;
+}
+
+.main{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+#main{
+  color: white;
+  font-size: 100px;
+
+}
+
+.text{
+  color: transparent;
+	text-shadow: 0 0 8px rgb(201, 199, 199);
+}
+
+span:hover{
+  color: rgba(158, 157, 157, 0.418);
+  cursor:help;
+  font-size: 50px;
+}
+
+.circle{
+  width: 400px;
+  height: 400px;
+  background:white;
+  opacity: 0.9;
+  border-radius: 100%;
+  position: fixed;
+  top: 90%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+  box-shadow:  0 0 20px  rgb(0, 0, 0);
+  -moz-box-shadow: 0 0 20px  rgb(0, 0, 0);
+  -webkit-box-shadow: 0 0 20px  rgb(0, 0, 0);
+  -o-box-shadow: 0 0 20px  rgb(0, 0, 0);
+  z-index:2;
+}
+
+.circle:hover{
+  opacity: 0.1;
+}
+
+/* *{
+  box-sizing: border-box;
+}
+
+body{
+  margin: auto;
+  padding: 0;
+  font-family: study, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50pt;
+  line-height: 10px;
+  text-shadow: 0 0 1px rgb(39, 39, 39);
+  color:transparent;
+}
+
+.one{
+  margin: auto;
+  height: 100%;
+  z-index: 2;
+}
+
+.main{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+#main{
+  color: white;
+  font-size: 100px;
+
+}
+
+.text{
+  color: transparent;
+	text-shadow: 0 0 8px rgb(201, 199, 199);
+}
+
+span:hover{
+  color: rgba(158, 157, 157, 0.829);
+  cursor:help;
+  font-size: 49px;
+  color: transparent;
+  line-height: 8px;
+  kerning: 1px;
+}*/
+
+/**{
+  box-sizing: border-box;
+}
+
+body{
+  margin: auto;
+  padding: 0;
+  font-family: study, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50pt;
+  line-height: 10px;
+  text-shadow: 0 0 1px rgb(39, 39, 39);
+  color:transparent;
+}
+
+.one{
+  margin: auto;
+  height: 100%;
+  z-index: 2;
+}
+
+.main{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+#main{
+  color: white;
+  font-size: 100px;
+
+}
+
+.text{
+  color: transparent;
+	text-shadow: 0 0 8px rgb(201, 199, 199);
+}
+
+span:hover{
+  color: rgba(158, 157, 157, 0.185);
+  cursor:help;
+  font-size: 49px;
+  color: transparent;
+  line-height: 8px;
+  kerning: 1px;
+}*/
