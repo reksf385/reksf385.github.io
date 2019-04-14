@@ -1,5 +1,10 @@
 *{box-sizing: border-box;}
 
+.wrap{
+  position: relative;
+}
+
+
 body{
   margin: 0;
   padding: 0;
