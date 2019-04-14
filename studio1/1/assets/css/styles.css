@@ -10,7 +10,7 @@ body{
 }
 
 .wrapper{
-  margin: 0 auto 0 auto
+  position: relative;
 }
 
 .content{
@@ -113,26 +113,15 @@ mark{
   position: absolute;
   top: 900px;
   left: 750px;
-  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
-  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
-  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
-  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
-  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
 }
 
 .seven{
   position: absolute;
-  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
-  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
-  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
-  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
-  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
-}
-
-.eight{
-  position: absolute;
-  top: 798px;
-  left: 500px;
   -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
   -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
   -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
@@ -140,10 +129,10 @@ mark{
   animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
 }
 
-.nine{
+.eight{
   position: absolute;
-  top: 1100px;
-  text-align: center;
+  top: 798px;
+  left: 500px;
   -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
   -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
   -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
@@ -151,13 +140,24 @@ mark{
   animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
 }
 
+.nine{
+  position: absolute;
+  top: 1100px;
+  text-align: center;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
+}
+
 .ten{
   position: absolute; 
-  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4.5 s both;
-  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4.5 s both;
-  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4.5 s both;
-  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4.5 s both;
-  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4.5s both;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4 s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4s both;
 }
 
 .eleven{ 
@@ -175,43 +175,43 @@ mark{
   position: absolute;
   top: 1060px;
   left: 500px;
-  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
-  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
-  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
-  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
-  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
 }
 
 .thirteen{ 
   position: absolute;
   top: 1280px;
   left: 500px;
-  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
-  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
-  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
-  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
-  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4s both;
 }
 
 .fourteen{ 
   position: absolute;
   top: 1900px;
   left: 200px;
-  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
-  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
-  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
-  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
-  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s both;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 8s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 8s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 8s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 8s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 8s both;
 }
 
 .fifteen{ 
   position: absolute;
   top: 1960px;
-  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 7.5s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 7.5s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 7.5s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 7.5s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 7.5s both;
 }
 
 .sixteen{ 
@@ -229,106 +229,106 @@ mark{
   position: absolute;
   top: 2800px;
   left: 600px;
-  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 9s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 9s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 9s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 9s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 9s both;
 }
 
 .eighteen{
   position: absolute;
   top: 3000px;
   left: 100px;
-  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 9.5s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 9.5s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 9.5s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 9.5s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 9.5s both;
 }
 
 .nineteen{
   position: absolute;
   top: 3000px;
   left: 100px;
-  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 7s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 7s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 7s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 7s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 7s both;
 }
 
 .twenty{
   position: absolute;
   top: 3350px;
-  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 8s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 8s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 8s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 8s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 8s both;
 }
 
 .twentyone{
   position: absolute;
   top: 3350px;
   left: 400px;
-  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 7s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 7s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 7s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 7s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 7s both;
 }
 
 .twentytwo{
   position: absolute;
   top: 3550px;
   left: 200px;
-  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 9s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 9s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 9s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 9s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 9s both;
 }
 
 .twentythree{
   position: absolute;
   top: 3900px;
-  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 6s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 6s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 6s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 6s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 6s both;
 }
 
 .twentyfour{
   position: absolute;
   top: 3400px;
   left: 400px;
-  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4s both;
 }
 
 .twentyfive{
   position: absolute;
   top: 3900px;
-  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 10s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 10s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 10s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 10s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 10s both;
 }
 
 .twentysix{
   position: absolute;
   top: 3900px;
-  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 11s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 11s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 11s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 11s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 11s both;
 }
 
 .twentyseven{
@@ -336,11 +336,11 @@ mark{
   margin:auto;
   top: 5000px;
   left: 100px;
-  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 10s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 10s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 10s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 10s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 10s both;
 }
 
 .twentyeight{
@@ -348,22 +348,22 @@ mark{
   top: 5000px;
   margin: auto;
   left: 100px;
-  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 12s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 12s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 12s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 12s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 12s both;
 }
 
 .twentynine{
   position: absolute;
   top: 4790px;
   margin: auto;
-  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
-  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s both;
+  -webkit-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 13s both;
+  -moz-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 13s both;
+  -ms-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 13s both;
+  -o-animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 13s both;
+  animation: fade-in 2.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 13s both;
 }
 
 /*animasi*/
