@@ -17,25 +17,17 @@ body{
   
 }
 
+.wrap{
+  position: relative;
+}
+
 .one{
   margin: auto;
   height: 100%;
-  z-index: 2;
+  z-index: 1;
+  position: absolute;
 }
 
-.main{
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: -1;
-}
-
-#main{
-  color: white;
-  font-size: 100px;
-
-}
 
 .text{
   color: transparent;
