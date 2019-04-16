@@ -1,0 +1,780 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 0px;
+    height: 4200px;
+    /* background: linear-gradient(180deg,  #000000, #1d1f68, #6a4f09,#6a4f09,#6a4f09,#6a3309); */
+    /* background: linear-gradient(180deg,  #00aeef, #239acd, #fbb040,#fbb040,#fbb040,#fbb040); */
+    /* background: linear-gradient(180deg, #5899d5,#fb4053,#fb6c40); */
+    background-size: 400% 400%;
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+    /* background-attachment: fixed;
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite; */
+}
+
+.wrapper{
+    margin: 0 auto 0 auto;
+}
+
+.frame{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.buildings{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* transform: scale(0.8); */
+}
+
+.main{
+    position: absolute;
+    background: black;
+    width: 600px;
+    height: 100%;
+    display: inline-block;
+    left: 50%;
+    top: 400px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+.letter{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+
+.one{
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 15px #9ecaed;
+    opacity: 0.7;
+}
+
+.one:hover{
+    -o-transition:.6s;
+    -ms-transition:.6s;
+    -moz-transition:.6s;
+    -webkit-transition:.6s;
+    transition:.6s;
+    border-color: #9ecaed;
+    box-shadow: 0 0 17px #9ecaed;
+    opacity: 1;
+}
+
+.blue{
+    background:rgb(143, 238, 249);
+}
+
+/* alphabets */
+
+.letter:hover{
+    outline: none;
+    border-color: #4e4e4e;
+    box-shadow: 0 0 13px #484848;
+    background:rgba(0, 0, 0, 0);
+    z-index: 3;
+}
+
+.A .base{
+    width: 200px;
+    height: 200px;
+    background:black;
+    position: absolute;
+}
+
+.a1{
+    width: 65px;
+    height: 40px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 68px;
+    top: 50px;
+    z-index: 4;
+}
+
+.a2{
+    width: 80px;
+    height: 50px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 60px;
+     bottom:0px;
+}
+
+.B .base{
+    width: 200px;
+    height: 200px;
+    background:black;
+    position: absolute;
+}
+
+.b1{
+    width: 98px;
+    height: 55px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 60px;
+    top: 36px;
+}
+
+.b2{
+    width: 110px;
+    height: 55px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 60px;
+    top: 112px;
+}
+
+
+.C .base{
+    width: 200px;
+    height: 200px;
+    background:black;
+    position: absolute;
+}
+
+
+.c1{
+    width: 115px;
+    height: 125px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 85px;
+    top: 36px;
+}
+
+.D .base{
+    width: 200px;
+    height: 200px;
+    background:black;
+    position: absolute;
+}
+
+.d1{
+    width: 115px;
+    height: 125px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    right: 60px;
+    top: 36px;
+}
+
+.E .base{
+    width: 200px;
+    height: 200px;
+    background:black;
+    position: absolute;
+}
+
+.e1{
+    width: 110px;
+    height: 50px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 90px;
+    top: 36px;
+}
+
+.e2{
+    width: 110px;
+    height: 50px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 90px;
+    top: 117px;
+}
+
+.F .base{
+    width: 200px;
+    height: 200px;
+    background:black;
+    position: absolute;
+}
+
+.f1{
+    width: 110px;
+    height: 50px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 90px;
+    top: 36px;
+}
+
+.f2{
+    width: 110px;
+    height: 83px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 90px;
+    top: 117px;
+}
+
+.G .base{
+    width: 200px;
+    height: 200px;
+    background:black;
+    position: absolute;
+}
+
+.g2{
+    width: 110px;
+    height: 75px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 90px;
+    top: 36px;
+}
+
+.g3{
+    width: 65px;
+    height: 59px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 90px;
+    bottom: 30px;
+}
+
+.H .base{
+    width: 200px;
+    height: 200px;
+    background:black;
+    position: absolute;
+}
+
+.h1{
+    width: 110px;
+    height: 50px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 50px;
+    top: 0px;
+}
+
+.h2{
+    width: 110px;
+    height: 50px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 50px;
+    bottom: 0px;
+}
+
+.I .base{
+    width: 200px;
+    height: 200px;
+    background:black;
+    position: absolute;
+}
+
+.i1{
+    width: 50px;
+    height:110px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    right: 0px;
+    top: 50px;
+}
+
+.i2{
+    width: 50px;
+    height: 110px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 0px;
+    top: 50px;
+}
+
+.J .base{
+    width: 200px;
+    height: 200px;
+    background:black;
+    position: absolute;
+}
+
+
+.j1{
+    width: 115px;
+    height: 125px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.K .base{
+    width: 200px;
+    height: 200px;
+    background:black;
+    position: absolute;
+}
+
+.k1{
+    width: 65px;
+    height: 40px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    right: 68px;
+    top: 0px;
+}
+
+.k2{
+    width: 40px;
+    height: 65px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    right: 0px;
+    left: 160px;
+    top: 60px;
+}
+
+.k3{
+    width: 65px;
+    height: 40px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    right: 68px;
+    bottom: 0px;
+}
+
+.L .base{
+    width: 200px;
+    height: 200px;
+    background:black;
+    position: absolute;
+}
+
+
+.l1{
+    width: 115px;
+    height: 125px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.M .base{
+    width: 200px;
+    height: 200px;
+    background:black;
+    position: absolute;
+}
+
+
+.m1{
+    width: 65px;
+    height: 40px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 68px;
+    top: 0px;
+}
+
+.m2{
+    width: 50px;
+    height: 100px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 35px;
+    bottom: 0px;
+}
+
+.m3{
+    width: 50px;
+    height: 100px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 120px;
+    bottom: 0px;
+}
+
+.N .base{
+    width: 200px;
+    height: 200px;
+    background:black;
+    position: absolute;
+}
+
+
+.n1{
+    width: 50px;
+    height: 110px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    right: 40px;
+    top: 0px;
+}
+
+.n2{
+    width: 40px;
+    height: 65px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left:50px;
+    bottom: 0px;
+}
+
+.O .base{
+    width: 200px;
+    height: 200px;
+    background:black;
+    position: absolute;
+}
+
+
+.o1{
+    width: 115px;
+    height: 125px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 45px;
+    top: 40px;
+}
+
+.P .base{
+    width: 200px;
+    height: 200px;
+    background:black;
+    position: absolute;
+}
+
+
+.p1{
+    width: 70px;
+    height: 63px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 85px;
+    top: 45px;
+}
+
+.p2{
+    width: 110px;
+    height: 50px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.Q .base{
+    width: 200px;
+    height: 200px;
+    background:black;
+    position: absolute;
+}
+
+
+.q1{
+    width: 115px;
+    height: 125px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 40px;
+    top: 36px;
+}
+
+.q2{
+    width: 160px;
+    height: 10px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.R .base{
+    width: 200px;
+    height: 200px;
+    background:black;
+    position: absolute;
+}
+
+
+.r1{
+    width: 70px;
+    height: 63px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 85px;
+    top: 45px;
+}
+
+.r2{
+    width: 50px;
+    height: 50px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 85px;
+    bottom: 0px;
+}
+
+.S .base{
+    width: 200px;
+    height: 200px;
+    background:black;
+    position: absolute;
+}
+
+.s1{
+    width: 110px;
+    height: 50px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    right: 0px;
+    top: 36px;
+}
+
+.s2{
+    width: 110px;
+    height: 50px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 0px;
+    top: 117px;
+}
+
+.T .base{
+    width: 200px;
+    height: 200px;
+    background:black;
+    position: absolute;
+}
+
+.t1{
+    width: 50px;
+    height:110px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    right: 0px;
+   bottom: 0px;
+}
+
+.t2{
+    width: 50px;
+    height: 110px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.U .base{
+    width: 200px;
+    height: 200px;
+    background:black;
+    position: absolute;
+}
+
+
+.u1{
+    width: 115px;
+    height: 125px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 45px;
+    top: 0px;
+}
+
+.V .base{
+    width: 200px;
+    height: 200px;
+    background:black;
+    position: absolute;
+}
+
+
+.v1{
+    width: 115px;
+    height: 125px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 43px;
+    top: 0px;
+}
+
+.v2{
+    width: 30px;
+    height: 25px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.v3{
+    width: 30px;
+    height: 25px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.W .base{
+    width: 200px;
+    height: 200px;
+    background:black;
+    position: absolute;
+}
+
+
+.w1{
+    width: 65px;
+    height: 40px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 68px;
+    bottom: 0px;
+}
+
+.w2{
+    width: 50px;
+    height: 100px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 35px;
+    top: 0px;
+}
+
+.w3{
+    width: 50px;
+    height: 100px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 120px;
+    top: 0px;
+}
+
+.X .base{
+    width: 200px;
+    height: 200px;
+    background:black;
+    position: absolute;
+}
+
+.x1{
+    width: 65px;
+    height: 40px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    right: 68px;
+    top: 0px;
+}
+
+.x2{
+    width: 40px;
+    height: 65px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    right: 0px;
+    left: 160px;
+    top: 63px;
+}
+
+.x3{
+    width: 40px;
+    height: 65px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    right: 160px;
+    left: 0px;
+    top: 63px;
+}
+
+.x4{
+    width: 65px;
+    height: 40px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    right: 68px;
+    bottom: 0px;
+}
+
+.Y .base{
+    width: 200px;
+    height: 200px;
+    background:black;
+    position: absolute;
+}
+
+
+.y1{
+    width: 115px;
+    height: 125px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 43px;
+    top: 0px;
+}
+
+.y2{
+    width: 40px;
+    height: 40px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.y3{
+    width: 40px;
+    height: 40px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.Z .base{
+    width: 200px;
+    height: 200px;
+    background:black;
+    position: absolute;
+}
+
+.z1{
+    width: 110px;
+    height: 50px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 0px;
+    top: 36px;
+}
+
+.z2{
+    width: 110px;
+    height: 50px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    right: 0px;
+    top: 117px;
+}
+
+.z3{
+    width: 45px;
+    height: 35px;
+    background:rgb(255, 255, 0);
+    position: absolute;
+    left: 0px;
+    top: 86px;
+}
+    
+.sq .base{
+    width: 200px;
+    height: 200px;
+    background:black;
+    position: absolute;
+}
