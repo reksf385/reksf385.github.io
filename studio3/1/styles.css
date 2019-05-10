@@ -1,0 +1,152 @@
+body{
+    margin: 0px;
+    padding:0px;
+    text-align: center;
+    background-color: #9db2af;
+}
+
+.this{
+    z-index: 10;
+}
+
+
+@media only screen and (max-width:767px){
+    /* hp*/
+    body{
+        margin: 0px;
+        padding:0px;
+        text-align: center;
+        background-image: url('img/tan.jpg');
+        background-repeat: repeat;
+        background-size: cover;
+    }
+    
+    .wrapper{
+        width: 100vw;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+        height:900px;
+        background-image: url('img/tan.jpg');
+        background-repeat: repeat;
+        background-size: cover;
+    }
+
+    .sound{
+        position:absolute;
+    }
+
+    .bg{
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+
+    .marq1{
+        margin-top: -50px;
+        position: absolute;
+        width: 100vh;
+        height: 900px;
+        z-index: auto;
+    }
+    .marq2{
+        margin-top: 50px;
+        position: absolute;
+        width: 100vh;
+        height: 900px;
+        z-index: 1;
+    }
+
+    .marq3{
+        margin-top: 470px;
+        position: absolute;
+        width: 100vh;
+        height: 900px;
+        z-index: 0;
+    }
+
+    .tb{
+        transform: scale(0.9);
+    }
+
+    .kh{
+        transform: scale(1.2);
+    }
+
+    .shape{
+        width: 35px;
+        height: 35px;
+        background-color: #a5d6ce;
+        z-index: 6;
+        position: fixed;
+        bottom: 0;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:992px){
+    /* tabletlapt size */
+    
+    body{
+        margin: 0px;
+        padding:0px;
+        text-align: center;
+    }
+
+    .wrapper{
+        text-align: center;
+        position: relative;
+    }
+
+
+    .bg{
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        width: 110%;
+    }
+
+}
+
+@media only screen and (min-width:993px) and (max-width:1200px){
+    /* small lapt size */
+    body{
+        margin: 0px;
+        padding:0px;
+        text-align: center;
+    }
+
+    .wrapper{
+        text-align: center;
+        position: relative;
+    }
+
+
+    .bg{
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        width: 110%;
+        
+    }
+
+}
+
+@media only screen and (min-width:1201px) and (max-width:1400px){
+    body{
+        margin: 0px;
+        padding:0px;
+        text-align: center;
+    }
+
+    .wrapper{
+        width: 100vw;
+        position: relative;
+    }
+}
