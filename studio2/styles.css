@@ -3,16 +3,11 @@ body {
     padding: 0;
     font-size: 0px;
     height: 4200px;
+    background-size: 400% 400%;
+    background-repeat: no-repeat;
     /* background: linear-gradient(180deg,  #000000, #1d1f68, #6a4f09,#6a4f09,#6a4f09,#6a3309); */
     /* background: linear-gradient(180deg,  #00aeef, #239acd, #fbb040,#fbb040,#fbb040,#fbb040); */
     /* background: linear-gradient(180deg, #5899d5,#fb4053,#fb6c40); */
-    background-size: 400% 400%;
-    background-repeat: no-repeat;
-    /* background-size: 100%; */
-    /* background-attachment: fixed;
-    -webkit-animation: AnimationName 30s ease infinite;
-    -moz-animation: AnimationName 30s ease infinite;
-    animation: AnimationName 30s ease infinite; */
 }
 
 .wrapper{
@@ -79,6 +74,59 @@ body {
 }
 
 /* alphabets */
+
+@media only screen and (max-width:767px){
+    /* hp*/
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-size: 0px;
+        height: 2000px;
+        background-size: 400% 400%;
+        background-repeat: no-repeat;
+    }
+    
+    .main{
+        position: absolute;
+        background: black;
+        width: 600px;
+        height: 100%;
+        display: inline-block;
+        left: 50%;
+        top: 650px;
+    }
+
+    .buildings{
+        transform: scale(0.45);
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:992px){
+    /* tabletlapt size */
+    body {
+        margin: 0;
+        padding: 0;
+        font-size: 0px;
+        height: 3500px;
+        background-size: 400% 400%;
+        background-repeat: no-repeat;
+    }
+    
+    .main{
+        position: absolute;
+        background: black;
+        width: 600px;
+        height: 100%;
+        display: inline-block;
+        left: 50%;
+        top: 500px;
+    }
+
+    .buildings{
+        transform: scale(0.8);
+    }
+}
 
 .letter:hover{
     outline: none;
