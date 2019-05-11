@@ -45,6 +45,7 @@ body{
         background-color: #a5d6ce;
         z-index: 2;
         position: absolute;
+        box-shadow: 0 0 10px rgba(72, 75, 75, 0.194);
     }
 
     .s1{
