@@ -1,4 +1,4 @@
-k$(document).ready(function(){
+$(document).ready(function(){
 
   var now = new Date();
   var hours = now.getHours();
