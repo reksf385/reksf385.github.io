@@ -1,58 +1,52 @@
-let area = [];
+let area = []; //creates an array that stores the data
 const datafile = "poke.json";
-let score = [];
+let score = [];//creates an array that store scores
 
-console.log(score);
-
-$(function() { 
-  //wrap here if want to reset,call ffunction to start  
+$(function() { //readies
     $.getJSON(datafile, function(data) {
-
-        area = data.poke;
-
+    //parameter holds the data that function is getting back from local json file
+    area = data.poke;
+    //store data in array
 
         $.each(area, function( i, obj ) {
+        //looping through the question, name and image arrays, while appending it on the question id as an ordered list
             $("#questions").append(`<ol id="qs"><li id="${i}" value="${i+1}">${obj.question} ${obj.name}?</li></ol><img id="imgs" src="${obj.image}"><select class="box" id="answers${i}"></select><br>`);
-
             //global array, push 0 value each time on the loop
-
             $.each(this.options, function (index, value) {
+                //looping through the options and append it on <select> called answers
                 $("#answers"+i).append(`<option value="${value}">${value}</option>`);
             });
         });
 
         $(document).on("change","select" , function(i){
-                
-            console.log($(this).val());//compare to answer, and keep track of right or wrong in array
+            //ready a change and select even that applies to the whole document
+            console.log($(this).val());
+            //shows the value that is selected
+            // console.log($(this).attr("id"));
+            let id = $(this).attr("id")[$(this).attr("id").length-1];
+            //set the id number to separate from string number
+            //console.log(id);
 
-                var choosen = $(this).children("options:selected");
 
-                var result = ($(area[i]).answer);//compare choosen with this
-                //keep track of points or each//score first
-                if (choosen == result){
-                    score = 1;
-                } else if(choosen!= result){
-                    score = 0;
-                } 
-                //value are equal, then put one on the score arrray, or not put 0 (else) 
-                
-                //compare anser at the index
+            var choosen = $(this).children("options:selected");
+            //creating a variable of choosen (when the options are selected)
+            var result = (area[id].answer);
+            //creating a variable that takes answer from array
+            //console.log(result);
+            //console.log(score);
+                //conditionals for score system
+                    if (choosen === result){
+                        score = [1];
+                    }else if(choosen != result){
+                        score = [0];
+                    }
         });
     
 
-        $("#submit").click(function(i){
-                
-            var total=[];
-
-                for (i=1;i<total.length;i++){
-
-                    total = score;
-                };
-
-                alert("you got "+ total + " out of 8!");
+        $("#submit").click(function(){
+            //shows total score on submit
+                alert("you got " + score + " out of 8!");
                     //loop through array for the points for score
-                    //show the correct/wrong questions
-                    //or display correct answers, try again button to reset 
         });
     });
 });
