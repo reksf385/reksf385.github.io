@@ -1,0 +1,57 @@
+{ "poke": [
+  {"question" : "What is the weight of ",
+    "name":"Articuno",
+    "options":["Choose your answer!","Snow Warning","Snow Clock","Refrigerate"],
+    "answer":"Snow Clock",
+    "image":"assets/img/articuno.png"
+  },
+
+  {"question" : "What is the pokedex number of ",
+    "name":"Lugia",
+    "options":["Choose your answer!","220","249","300"],
+    "answer": "249",
+    "image":"assets/img/lugia.png"
+  },
+
+  {"question" : "What is the height of ",
+    "name":"Rayquaza",
+    "options":["Choose your answer!","23 feet (5m)","23 feet (7m)","65 feet (20m)"],
+    "answer":"23 feet (7m)",
+    "image":"assets/img/rayquaza.png"
+  },
+
+  {"question" : "What is the type of ",
+    "name":"Uxie",
+    "options":["Choose your answer!","Fairy","Flying","Psychic"],
+    "answer":"Psychic",
+    "image":"assets/img/uxie.png"
+  },
+
+  {"question" : "What is the weight of ",
+    "name":"Terrakion",
+    "options":["Choose your answer!","220.4g lbs (100 kg)","485 lbs (230 kg)","573.2 lbs (260 kg)"],
+    "answer":"573.2 lbs (260 kg)",
+    "image":"assets/img/terrakion.png"
+  },
+
+  {"question" : "What is the base HP of ",
+    "name":"Xerneas",
+    "options":["Choose your answer!","99 HP","110 HP","126 HP"],
+    "answer":"126 HP",
+    "image":"assets/img/xerneas.png"
+  },
+
+  {"question" : "What is the weight of Cosmog? ",
+    "name":"Cosmog",
+    "options":["Choose your answer!","0.1 lbs (0.05 kg) ","0.2 lbs (0.1 kg)","1 lbs (1kg)"],
+    "answer":"0.2 lbs (0.1 kg)",
+    "image":"assets/img/cosmog.png"
+  },
+
+  {"question" : "What is the catch rate of ",
+    "name":"Arceus",
+    "options":["Choose your answer!","0.01%","0.5%","1.6%"],
+    "answer":"1.6%",
+    "image":"assets/img/arceus.png"
+  }
+]}
