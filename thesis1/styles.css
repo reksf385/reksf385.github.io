@@ -1,0 +1,58 @@
+html { 
+    background: url(Img/bg.jpg) no-repeat center center fixed; 
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 0px;
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    position: relative;
+}
+
+a {text-decoration: none; }
+
+h1{
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+    padding:  1em;
+}
+
+.first{
+    background-color: rgba(255, 255, 255, 0.632);
+    height: 30%;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.467);
+}
+
+.second{
+    margin-top: 1.5%;
+}
+
+.column{
+    width: 10%;
+    font-size: 25px;
+    display: inline-block;
+    height: 100%;
+    padding: 30px;
+    vertical-align: top;
+}
+
+.description{
+    border-radius: 5px 5px 5px 5px;
+    width: 100%;
+}
+
+.one{
+    border-radius: 5px 5px 5px 5px;
+}
+
+#one:hover{
+    background-color:rgba(164, 164, 164, 0.591);
+}
+
+.description:hover{
+    background-color: blue;
+}
