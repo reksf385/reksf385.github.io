@@ -99,4 +99,13 @@ p:hover{
     border-radius: 5px 5px 5px 5px;
     margin: 15px 15px 15px 15px;
   }
+
+  html { 
+    background: url(img/bg2.jpg) no-repeat center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 }
+
