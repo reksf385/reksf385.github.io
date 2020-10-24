@@ -101,7 +101,7 @@ p:hover{
   }
 
   html { 
-    background: url(img/bg2.jpg) no-repeat center fixed; 
+    background: url(img/bg2.jpg) no-repeat right top fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
