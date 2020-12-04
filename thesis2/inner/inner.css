@@ -25,63 +25,90 @@ body, .wrapper{
 
 h1{
     margin: 5px;
-    font-size: 33px;
+    font-size: 25px;
 }
 
 p{
     margin: 5px;
-    font-size: 19px;
-}
-
-.top{
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: auto;
-  width: 100vw;
-  z-index: 2;
-  margin: 0;
-  padding: 0;
-  font-size: 0px;
+    font-size: 20px;
 }
 
 .first{
-  height: 10%;
+  height: 6%;
   width: 100%;
   background-color: #1B1B1F;
-  position: relative;
+  position: fixed;
   top: 0;
 }
 
 #home{
   height: 5px;
   text-align: left;
-  margin: 7px;
+  margin-top: 7px;
   padding: 0 20px 10px 20px;
   position: fixed;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 0;
   transform: translate(-50%, -50%);
-  top: 2%;
+  top: 2.5%;
   left: 50%;
   z-index: 3;
 }
 
+.space{
+  padding-bottom: 0.5%;
+}
+
+.column{
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  vertical-align: top;
+  margin-top: 30px;
+}
+
+.image{
+  width: 40%;
+  padding-left: 15px ;
+  padding-right: 15px;
+  padding-top: 30px ;
+  padding-bottom: 30 px;
+}
+
+.column2{
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  vertical-align: top;
+}
+
+.image2{
+  width: 26.6%;
+  padding-left: 15px ;
+  padding-right: 15px;
+  padding-top: 3% ;
+  padding-bottom: 7%;
+}
+
+.image2:hover{
+  cursor: pointer;
+  opacity: 50%;
+}
+
 .title{
   text-align: center;
-  margin-top: 3%;
+  margin-top: 3.5%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
-.zoom{
-    width: 70%;
-}
-
-.main{
-    width: 100%;
-    margin-top: 7.2%;
-}
-
-button{
+/* button{
   background-color: #6ed272;
   border-radius: 25px;
   border: none;
@@ -94,68 +121,24 @@ button{
   margin: 1.5% 2px;
   cursor: pointer;
   font-family: 'Stellar';
+} */
+
+#download{
+  color: rgb(69, 164, 72);
 }
 
 .images{
-    padding-top: 6%;
-    padding-left: 15%;
-    padding-right: 15% ;
+  padding-top: 6%;
+  padding-left: 15%;
+  padding-right: 15% ;
 }
 
-div.gallery {
-  /* border: 1px solid #ccc; */
-}
-
-div.gallery:hover {
-  /* border: 1px solid #777; */
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.gallery img:hover {
-  opacity: 70%;
-}
-
-div.desc {
-  padding: 15px;
-  font-size: 15px;
-  text-align: center;
-}
-
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
-}
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.space{
-  padding-bottom: 10%;
+a{
+  color: rgb(255, 255, 255);
 }
 
 .footer {
-  font-size: 20px;
+  font-size: 16px;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -178,19 +161,23 @@ a:hover{
 }
 
 #arrow{
-  font-size: 20px;
+  font-size: 16px;
 }
 
 #back{
   text-align: left;
   float: left;
   margin: 10px;
+  padding-bottom: 5px;
+  font-size: 16px;
 }
 
 #next{
   text-align: right;
   float: right;
   margin: 10px;
+  padding-bottom: 5px;
+  font-size: 16px;
 }
 
 .bottom{
