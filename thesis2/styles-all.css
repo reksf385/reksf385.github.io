@@ -79,12 +79,10 @@ a:hover{
     top: 2.5%;
     left: 50%;
     z-index: 3;
-  }
+}
 
-.title{
-    text-align: center;
-    margin-top: 7%;
-    font-size: 19px;
+.space{
+    height: 5%;
 }
 
 .column{
@@ -96,8 +94,8 @@ a:hover{
     padding-left: 15px;
     padding-right: 15px;
     vertical-align: top;
-    margin-top: 2%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 8%;
 }
 
 .bottom{
@@ -118,7 +116,7 @@ a:hover{
 }
 
 .image{
-    width: 50%;
+    width: 30%;
     padding-left: 15px ;
     padding-right: 15px;
     padding-top: 30px ;
