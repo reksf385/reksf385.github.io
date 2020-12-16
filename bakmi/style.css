@@ -1,0 +1,129 @@
+body{
+    margin: 0px;
+    padding:0px;
+    text-align: center;
+    background-color: #9db2af;
+    font-size: 60px;
+    color:#9db2af;
+    text-shadow: 0 0 1px rgb(39, 39, 39);
+    font-family:  'Cutive Mono', monospace;
+}
+
+.landing{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width:767px){
+    /* hp*/
+    body{
+        background-color: #9db2af;
+        text-align: center;
+        font-size: 0
+    }
+
+    .landing{
+        display: none;
+    }
+
+    .wrapper{
+        height:900px;
+        width: 414px;
+        background-image: url('img/map.png');
+        background-repeat: repeat;
+        background-size: 106%;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .shape{
+        width: 35px;
+        height: 35px;
+        background-color: #a5d6ce;
+        z-index: 2;
+        position: absolute;
+        box-shadow: 0 0 10px rgba(72, 75, 75, 0.194);
+    }
+
+    .s1{
+       top:20px;
+       left:250px;
+       position: absolute;
+    }
+
+    .s2{
+        top:270px;
+        left:250px;
+        position: absolute;
+    }
+
+    .s3{
+        top:180px;
+        left:142px;
+        position: absolute;
+    }
+
+    .s4{
+        top:488px;
+        left:110px;
+        position: absolute;
+    }
+
+    .s5{
+        top:700px;
+        left:30px;
+        position: absolute;
+    }
+
+    .s6{
+        top:230px;
+        right:13px;
+        position: absolute;
+    }
+
+    .s7{
+        top:486px;
+        right:13px;
+        position: absolute;
+    }
+
+    .s8{
+        top:760px;
+        right:13px;
+        position: absolute;
+    }
+
+    .s9{
+        top:600px;
+        left:150px;
+        position: absolute;
+    }
+
+    .s10{
+        top:700px;
+        left:285px;
+        position: absolute;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:992px){
+    /* tabletlapt size */
+    body{
+    margin: 0px;
+    padding:0px;
+    text-align: center;
+    background-color: #9db2af;
+    }
+}
+
+@media only screen and (min-width:1201px) and (max-width:1400px){
+    body{
+        margin: 0px;
+        padding:0px;
+        text-align: center;
+        background-color: #9db2af;
+    }
+}
